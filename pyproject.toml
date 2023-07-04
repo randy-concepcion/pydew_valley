@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pydew-valley"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "pydew_valley"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pygame = "^2.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
